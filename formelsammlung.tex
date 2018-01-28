@@ -12,11 +12,19 @@
   locale = DE ,
   per-mode = symbol
 }
+\usepackage{multicol}                       % Mehrspaltig
 
 \usepackage{parskip}                        % No Space after newline
 
 \newcommand\mainformular[1]{\fbox{#1}}      % Standard Formel
-\definecolor{lightblue}{rgb}{204,230,255}
+\newcommand\legende[1]{
+    \colorbox{lightblue}{%
+    \begin{tabular}{llll}
+     #1
+    \end{tabular}
+    }
+}                                           % Farbig hintelegte Legende
+\definecolor{lightblue}{RGB}{204, 230, 255}
 
 \begin{document}
 
@@ -34,11 +42,11 @@ $g = \cfrac{F_G}{m}$
 \end{minipage}
 \begin{minipage}{0.45\textwidth}
 
-\begin{tabular}{llll}
+\legende{
 $m$ & Masse & $\si{\kilo\gram}$ & \\
 $g$ & Fallbeschleunigung & $\si{\metre\per\square\second}$ & $9,81 \si{\metre\per\square\second}$ \\
 $F_G$ & Gewichtskraft & $N$ & $\si{\kilogram\metre\per\square\second}$ \\
-\end{tabular}
+}
 
 \end{minipage}
 
@@ -50,13 +58,14 @@ $F_G$ & Gewichtskraft & $N$ & $\si{\kilogram\metre\per\square\second}$ \\
 \end{minipage}
 \begin{minipage}{0.45\textwidth}
 
-\begin{tabular}{llll}
+\legende{
 $F_1$ & Einzelkraft 1 & $\si{\newton}$ & $\si{\kilo\gram}$ \\
 $g$ & Fallbeschleunigung & $\si{\metre\per\square\second}$ & $9,81 \si{\metre\per\square\second}$ \\
 $F_G$ & Gewichtskraft & $N$ & $\si{\kilogram\metre\per\square\second}$ \\
-\end{tabular}
+}
 
 \end{minipage}
+
 
 \subsubsection{Gewichtskraft}
 \begin{minipage}{0.45\textwidth}
@@ -68,47 +77,11 @@ $g = \cfrac{F_G}{m}$
 \end{minipage}
 \begin{minipage}{0.45\textwidth}
 
-\begin{tabular}{llll}
+\legende{
 $m$ & Masse & $\si{\kilo\gram}$ & \\
 $g$ & Fallbeschleunigung & $\si{\metre\per\square\second}$ & $9,81 \si{\metre\per\square\second}$ \\
 $F_G$ & Gewichtskraft & $N$ & $\si{\kilogram\metre\per\square\second}$ \\
-\end{tabular}
-
-\end{minipage}
-
-\subsubsection{Gewichtskraft}
-\begin{minipage}{0.45\textwidth}
-
-\mainformular{$F_G = m \cdot g$} \\
-$m = \cfrac{F_G}{g}$ \\
-$g = \cfrac{F_G}{m}$
-
-\end{minipage}
-\begin{minipage}{0.45\textwidth}
-
-\begin{tabular}{llll}
-$m$ & Masse & $\si{\kilo\gram}$ & \\
-$g$ & Fallbeschleunigung & $\si{\metre\per\square\second}$ & $9,81 \si{\metre\per\square\second}$ \\
-$F_G$ & Gewichtskraft & $N$ & $\si{\kilogram\metre\per\square\second}$ \\
-\end{tabular}
-
-\end{minipage}
-
-\subsubsection{Gewichtskraft}
-\begin{minipage}{0.45\textwidth}
-
-\mainformular{$F_G = m \cdot g$} \\
-$m = \cfrac{F_G}{g}$ \\
-$g = \cfrac{F_G}{m}$
-
-\end{minipage}
-\begin{minipage}{0.45\textwidth}
-
-\begin{tabular}{llll}
-$m$ & Masse & $\si{\kilo\gram}$ & \\
-$g$ & Fallbeschleunigung & $\si{\metre\per\square\second}$ & $9,81 \si{\metre\per\square\second}$ \\
-$F_G$ & Gewichtskraft & $N$ & $\si{\kilogram\metre\per\square\second}$ \\
-\end{tabular}
+}
 
 \end{minipage}
 
@@ -122,11 +95,11 @@ $\alpha = \cfrac{\Delta l}{l_0 \cdot \Delta t}$
 \end{minipage}
 \begin{minipage}{0.45\textwidth}
 
-\begin{tabular}{llll}
+\legende{
 $l$ & Länge & $\si{\meter} $ & $ $ \\
 $\alpha$ & Längenausdehnungskoeffizient &  & \\
 $t$ & Zeit & $\si{\second}$ & \\
-\end{tabular}
+}
 
 \end{minipage}
 
@@ -140,11 +113,11 @@ $l = l_{0} \cdot \left( 1 + \alpha \cdot \Delta t \right) $
 \end{minipage}
 \begin{minipage}{0.45\textwidth}
 
-\begin{tabular}{llll}
+\legende{
 $\rho$ & Druck & $\si{\pascal} $ & $\si{\newton\per\square\metre}$ \\
 $\gamma $ & Volumenausdehnungskoeffizient &  & $= 3 \alpha$ \\
 $t$ & Zeit & $\si{\second}$ & \\
-\end{tabular}
+}
 
 \end{minipage}
 
@@ -158,10 +131,10 @@ $t$ & Zeit & $\si{\second}$ & \\
 \end{minipage}
 \begin{minipage}{0.45\textwidth}
 
-\begin{tabular}{llll}
+\legende{
 $V$ & Volumen & $\si{\cubic\meter}$ & \\
 $T$ & Temperatur & $\si{\kelvin}$  &  \\
-\end{tabular}
+}
 
 \end{minipage} 
 
@@ -173,29 +146,29 @@ $T$ & Temperatur & $\si{\kelvin}$  &  \\
 \end{minipage}
 \begin{minipage}{0.45\textwidth}
 
-\begin{tabular}{llll}
+\legende{
 $\rho$ & Druck & $\si{\pascal} $ & $\si{\newton\per\square\metre}$ \\
 $T$ & Temperatur & $\si{\kelvin}$  &  \\
-\end{tabular}
+}
 
 \end{minipage}
 
 \subsection{Ideale Gase}
 
 \subsubsection{Ideale Gasgleichung}
-\begin{minipage}{0.45\textwidth}
+\begin{minipage}[t]{0.45\textwidth}
 
 \mainformular{$\rho \cdot V = m \cdot R \cdot T$} \\
 \end{minipage}
-\begin{minipage}{0.45\textwidth}
+\begin{minipage}[t]{0.45\textwidth}
 
-\begin{tabular}{llll}
+\legende{
 $\rho$ & Druck & $\si{\pascal}$ & \\
 $V$ & Volumen & $\si{\cubic\meter}$ & \\
 $m$ & Masse & $\si{\kilogram}$ &  \\
 $R$ & Spezifische Gaskonstante & $\si{\joule\per\kilogram\per\kelvin} $ & $ $ \\
 $T$ & Temperatur & $\si{\kelvin}$ & \\
-\end{tabular}
+}
 
 \end{minipage} 
 
@@ -206,11 +179,11 @@ $T$ & Temperatur & $\si{\kelvin}$ & \\
 \end{minipage}
 \begin{minipage}{0.45\textwidth}
 
-\begin{tabular}{llll}
-$R$ & Spezifische Gaskonstante & $\si{\joule\per\kilogram\per\kelvin} $ & $ $ \\
-$R_{m}$ & Universelle Gaskonstante & $\si{\joule\per\mol\per\kelvin} $ & $8,3144598 \si{\joule\per\mol\per\kelvin}$ \\
+\legende{
+$R$ & Spez Gaskonstante & $\si{\joule\per\kilogram\per\kelvin} $ & $ $ \\
+$R_{m}$ & Univ. Gaskonstante & $\si{\joule\per\mol\per\kelvin} $ & $8,3144598 \si{\joule\per\mol\per\kelvin}$ \\
 $M$ & Molare Masse & $\si{\gram\mol}$ & \\
-\end{tabular}
+}
 
 \end{minipage}
 
@@ -226,12 +199,12 @@ $g = \cfrac{F_G}{m}$
 \end{minipage}
 \begin{minipage}{0.45\textwidth}
 
-\begin{tabular}{llll}
+\legende{
 $W$ & Arbeit & $\si{\joule}$ & \\
 $m$ & Masse & $\si{\kilogram}$ &  \\
-$R$ & Spezifische Gaskonstante & $\si{\joule\per\kilogram\per\kelvin} $ & $ $ \\
+$R$ & Spez. Gaskonstante & $\si{\joule\per\kilogram\per\kelvin} $ & $ $ \\
 $T$ & Temperatur & $\si{} $ & \\
-\end{tabular}
+}
 
 \end{minipage}
 
@@ -245,14 +218,14 @@ $g = \cfrac{F_G}{m}$
 
 \end{minipage}
 \begin{minipage}{0.45\textwidth}
-\noindent\fcolorbox{blue}{lightblue}{%
-\begin{tabular}{llll}
+
+\legende{
 $U$ & Innere Energie & $\si{\kilo\gram}$ & \\
 $E_{pot}$ & Potentielle Energie & $\si{\metre\per\square\second}$ & $9,81 \si{\metre\per\square\second}$ \\
 $E_{kin}$ & Kinetische Energie & $N$ & $\si{\kilogram\metre\per\square\second}$ \\
 $Q$ & Wärmeenergie/Wärmeleistung & $\si{\joule}$ & \\
-\end{tabular}
 }%
+
 \end{minipage}
 
 
