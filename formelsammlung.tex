@@ -1,4 +1,5 @@
-\documentclass[a4paper, 10pt]{article}
+\documentclass[a4paper, 11pt]{article}
+\usepackage[a4paper, left=2cm, right=2cm, top=2cm]{geometry}
 \usepackage[utf8]{inputenc}					% Zeichenkodierung UTF-8 falls Probleme wegen utf8 auftreten, utf8 durch utf8x ersetzen
 \usepackage[ngerman]{babel}					% Deutsche Sprache und Silbentrennung
 \usepackage{xcolor}
@@ -11,6 +12,10 @@
   locale = DE ,
   per-mode = symbol
 }
+
+\usepackage{parskip}                        % No Space after newline
+
+\definecolor{lightblue}{rgb}{204,230,255}
 
 \begin{document}
 
@@ -123,7 +128,7 @@ $t$ & Zeit & $\si{\second}$ & \\
 \end{tabular}
 
 \end{minipage}
-\\\\
+
 \textbf{Resultierende Gesamtlänge} bei Längenausdehnung, proportional: \\
 $l = l_{0} \cdot \left( 1 + \alpha \cdot \Delta t \right) $
 
@@ -158,7 +163,7 @@ $T$ & Temperatur & $\si{\kelvin}$  &  \\
 \end{tabular}
 
 \end{minipage} 
-\\\\
+
 \textbf{bei konstantem Volumen:}\\
 
 \begin{minipage}{0.45\textwidth}
@@ -192,7 +197,7 @@ $T$ & Temperatur & $\si{\kelvin}$ & \\
 \end{tabular}
 
 \end{minipage} 
-\\\\
+
 \textbf{Universelle Gaskonstante}\\
 \begin{minipage}{0.45\textwidth}
 \fbox{$R_{m} = R \cdot M$} 
@@ -238,7 +243,7 @@ $g = \cfrac{F_G}{m}$
 
 \end{minipage}
 \begin{minipage}{0.45\textwidth}
-\noindent\fcolorbox{}{lightgray}{%
+\noindent\fcolorbox{blue}{lightblue}{%
 \begin{tabular}{llll}
 $U$ & Innere Energie & $\si{\kilo\gram}$ & \\
 $E_{pot}$ & Potentielle Energie & $\si{\metre\per\square\second}$ & $9,81 \si{\metre\per\square\second}$ \\
