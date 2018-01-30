@@ -225,5 +225,7 @@ TSWLatexianTemp*
 # expex forward references with \gathertags
 *-tags.tex
 
+# Scrapy
+tutorial/*
 
 # End of https://www.gitignore.io/api/latex
