@@ -31,61 +31,52 @@
 \section{Mechanik}
 
 \subsection{Grundlagen Mechanik}
+\input{themen/Mechanik/Grundlagen-Mechanik.tex}
 
-\subsubsection{Gewichtskraft}
-\begin{minipage}{0.45\textwidth}
+\subsection{Dynamik}
+\input{themen/Mechanik/Dynamik.tex}
 
-\mainformular{$F_G = m \cdot g$} \\
-$m = \cfrac{F_G}{g}$ \\
-$g = \cfrac{F_G}{m}$
+\subsection{Kinematik}
+\input{themen/Mechanik/Kinematik.tex}
 
-\end{minipage}
-\begin{minipage}{0.45\textwidth}
+\section{Elektrotechnik}
 
-\legende{
-$m$ & Masse & $\si{\kilo\gram}$ & \\
-$g$ & Fallbeschleunigung & $\si{\metre\per\square\second}$ & $9,81 \si{\metre\per\square\second}$ \\
-$F_G$ & Gewichtskraft & $N$ & $\si{\kilogram\metre\per\square\second}$ \\
-}
+\subsection{Allgemeine Elektrotechnik}
+\input{themen/Elektrotechnik/Allgemeine-Elektrotechnik.tex}
 
-\end{minipage}
+\subsection{Elektrischer Schwingkreis}
+\input{themen/Elektrotechnik/Elektrischer-Schwingkreis.tex}
 
-\subsubsection{Kräfte}
-\begin{minipage}{0.45\textwidth}
+\subsection{Elektrisches Feld}
+\input{themen/Elektrotechnik/Elektrisches-Feld.tex}
 
-\mainformular{$\overrightarrow{F}_{res} = \overrightarrow{F}_1 + \overrightarrow{F}_2 $} \\
+\subsection{Elektrizitätslehre}
+\input{themen/Elektrotechnik/Elektrizitaetslehre.tex}
 
-\end{minipage}
-\begin{minipage}{0.45\textwidth}
+\subsection{Magnetisches Feld}
+\input{themen/Elektrotechnik/Magnetisches-Feld.tex}
 
-\legende{
-$F_1$ & Einzelkraft 1 & $\si{\newton}$ & $\si{\kilo\gram}$ \\
-$g$ & Fallbeschleunigung & $\si{\metre\per\square\second}$ & $9,81 \si{\metre\per\square\second}$ \\
-$F_G$ & Gewichtskraft & $N$ & $\si{\kilogram\metre\per\square\second}$ \\
-}
+\section{Optik}
 
-\end{minipage}
+\subsection{Linsen}
+\input{themen/Optik/Linsen.tex}
 
-
-\subsubsection{Gewichtskraft}
-\begin{minipage}{0.45\textwidth}
-
-\mainformular{$F_G = m \cdot g$} \\
-$m = \cfrac{F_G}{g}$ \\
-$g = \cfrac{F_G}{m}$
-
-\end{minipage}
-\begin{minipage}{0.45\textwidth}
-
-\legende{
-$m$ & Masse & $\si{\kilo\gram}$ & \\
-$g$ & Fallbeschleunigung & $\si{\metre\per\square\second}$ & $9,81 \si{\metre\per\square\second}$ \\
-$F_G$ & Gewichtskraft & $N$ & $\si{\kilogram\metre\per\square\second}$ \\
-}
-
-\end{minipage}
+\subsection{Reflexion und Brechung}
+\input{themen/Optik/Reflexion-und-Brechung.tex}
 
 \section{Wärmelehre}
+
+\subsection{Ausdehnung der Körper}
+\input{themen/Waermelehre/Ausdehnung-der-Koerper.tex}
+
+\subsection{Energie}
+\input{themen/Waermelehre/Energie.tex}
+
+\subsection{Temperatur}
+\input{themen/Waermelehre/Temperatur.tex}
+
+\subsection{Zustandsänderung der Gase}
+\input{themen/Waermelehre/Zustandsaenderungen-der-Gase.tex}
 
 \subsection{Körper und Temperaturänderung}
 \subsubsection{Längenausdehnung bei Temperaturänderung}
@@ -150,81 +141,6 @@ $T$ & Temperatur & $\si{\kelvin}$  &  \\
 $\rho$ & Druck & $\si{\pascal} $ & $\si{\newton\per\square\metre}$ \\
 $T$ & Temperatur & $\si{\kelvin}$  &  \\
 }
-
-\end{minipage}
-
-\subsection{Ideale Gase}
-
-\subsubsection{Ideale Gasgleichung}
-\begin{minipage}{0.45\textwidth}
-
-\mainformular{$\rho \cdot V = m \cdot R \cdot T$} \\
-\end{minipage}
-\begin{minipage}{0.45\textwidth}
-
-\legende{
-$\rho$ & Druck & $\si{\pascal}$ & \\
-$V$ & Volumen & $\si{\cubic\meter}$ & \\
-$m$ & Masse & $\si{\kilogram}$ &  \\
-$R$ & Spezifische Gaskonstante & $\si{\joule\per\kilogram\per\kelvin} $ & $ $ \\
-$T$ & Temperatur & $\si{\kelvin}$ & \\
-}
-
-\end{minipage} 
-
-\textbf{Universelle Gaskonstante}\\
-\begin{minipage}{0.45\textwidth}
-\mainformular{$R_{m} = R \cdot M$} 
-
-\end{minipage}
-\begin{minipage}{0.45\textwidth}
-
-\legende{
-$R$ & Spez Gaskonstante & $\si{\joule\per\kilogram\per\kelvin} $ & $ $ \\
-$R_{m}$ & Univ. Gaskonstante & $\si{\joule\per\mol\per\kelvin} $ & $8,3144598 \si{\joule\per\mol\per\kelvin}$ \\
-$M$ & Molare Masse & $\si{\gram\mol}$ & \\
-}
-
-\end{minipage}
-
-
-\subsubsection{Isotherme Zustastandsänderung}
-\begin{minipage}{0.45\textwidth}
-
-\mainformular{$W = -m \cdot R \cdot T \cdot \ln{\cfrac{V_2}{V_1}}$}
-
-$W = -m \cdot R \cdot T \cdot \ln{\cfrac{V_2}{V_1}}$ \\
-$g = \cfrac{F_G}{m}$
-
-\end{minipage}
-\begin{minipage}{0.45\textwidth}
-
-\legende{
-$W$ & Arbeit & $\si{\joule}$ & \\
-$m$ & Masse & $\si{\kilogram}$ &  \\
-$R$ & Spez. Gaskonstante & $\si{\joule\per\kilogram\per\kelvin} $ & $ $ \\
-$T$ & Temperatur & $\si{} $ & \\
-}
-
-\end{minipage}
-
-\subsection{1. Hauptsatz}
-\subsubsection{Wärmelehre}
-\begin{minipage}{0.45\textwidth}
-
-\mainformular{$\Delta U + \Delta E_{pot} + \Delta E_{kin} =  \Delta Q + \Delta W$} \\
-$m = \cfrac{F_G}{g}$ \\
-$g = \cfrac{F_G}{m}$
-
-\end{minipage}
-\begin{minipage}{0.45\textwidth}
-
-\legende{
-$U$ & Innere Energie & $\si{\kilo\gram}$ & \\
-$E_{pot}$ & Potentielle Energie & $\si{\metre\per\square\second}$ & $9,81 \si{\metre\per\square\second}$ \\
-$E_{kin}$ & Kinetische Energie & $N$ & $\si{\kilogram\metre\per\square\second}$ \\
-$Q$ & Wärmeenergie/Wärmeleistung & $\si{\joule}$ & \\
-}%
 
 \end{minipage}
 
