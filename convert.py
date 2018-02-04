@@ -94,8 +94,7 @@ for formel in formeln:
 
     createLegend(main_formular)
 
-    filename = get_filename(subtitle)
-    file_path = title + '/' + filename + '.tex'
+    file_path = get_filename(title) + '/' + get_filename(subtitle) + '.tex'
     directory = os.path.dirname(file_path)
 
     if not os.path.exists(directory):
@@ -122,4 +121,3 @@ jsonarray = json.dumps(legend, indent=4, sort_keys=True)
 with open('legend.json', 'w') as f:
     f.write(jsonarray)
     f.close()
-
