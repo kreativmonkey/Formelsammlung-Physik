@@ -1,5 +1,5 @@
 \documentclass[a4paper, 11pt]{article}
-\usepackage[a4paper, left=2cm, right=2cm, top=2cm]{geometry}
+\usepackage[a4paper, left=3cm, right=2cm, top=2cm]{geometry}
 \usepackage[utf8]{inputenc}					% Zeichenkodierung UTF-8 falls Probleme wegen utf8 auftreten, utf8 durch utf8x ersetzen
 \usepackage[ngerman]{babel}					% Deutsche Sprache und Silbentrennung
 \usepackage{xcolor}
@@ -7,6 +7,7 @@
 \usepackage{amssymb}						% Verschiedene Symbole
 \usepackage{graphicx}						% Zum Bilder einfügen benötigt
 \usepackage{hyperref}						% Sprunglinks für Überschriften, Fußnoten und Weblinks
+\usepackage{tabularx}
 \usepackage{siunitx}                        % Zur Darstellung von SI Einheiten
 \sisetup{
   locale = DE ,
@@ -19,9 +20,9 @@
 \newcommand\mainformular[1]{\fbox{#1}}      % Standard Formel
 \newcommand\legende[1]{
     \colorbox{lightblue}{%
-    \begin{tabular}{llll}
+    \begin{tabularx}{\textwidth}{llll}
      #1
-    \end{tabular}
+    \end{tabularx}
     }
 }                                           % Farbig hintelegte Legende
 \definecolor{lightblue}{RGB}{204, 230, 255}
@@ -55,6 +56,7 @@
 
 \subsection{Magnetisches Feld}
 \input{themen/Elektrotechnik/Magnetisches-Feld.tex}
+
 
 \section{Optik}
 

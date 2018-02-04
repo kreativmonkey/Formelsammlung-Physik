@@ -2,717 +2,793 @@
     "4\\pi\\epsilon_{0}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "A": {
-        "Description": "",
+        "Description": "Fl\u00e4sche",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "\\si{\\square\\metre}",
+        "value": ""
     },
     "A_{0}": {
-        "Description": "",
+        "Description": "Anfangsfl\u00e4sche",
         "Display": 1,
-        "si": ""
+        "unit": "\\si{\\square\\metre}",
+        "value": ""
     },
     "B": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "C": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "C_{1}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "C_{2}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "C_{g}": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
-    },
-    "C}": {
-        "Description": "",
-        "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "D": {
         "Description": "Federkonstante,Richtgr\u00f6\u00dfe",
         "Display": 1,
-        "einheit": "\\si{\\kilo\\gram\\per\\squar\\second}",
-        "si": "\\si{\\newton\\per\\metre}"
-    },
-    "D}": {
-        "Description": "",
-        "Display": 1,
-        "si": ""
+        "unit": "\\si{\\newton\\per\\metre}",
+        "value": "\\si{\\kilo\\gram\\per\\square\\second}"
     },
     "E": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "F": {
         "Description": "Kraft",
         "Display": 1,
-        "einheit": "\\si{\\kilo\\gram\\metre\\per\\squar\\second}",
-        "si": "\\si{\\newton}"
+        "unit": "\\si{\\newton}",
+        "value": "\\si{\\kilo\\gram\\metre\\per\\square\\second}"
     },
     "F_{1}": {
-        "Description": "",
+        "Description": "Einzelkraft",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "\\si{\\newton}",
+        "value": "\\si{\\kilo\\gram\\metre\\per\\square\\second}"
     },
     "F_{2}": {
-        "Description": "",
+        "Description": "Einzelkraft",
         "Display": 1,
-        "si": ""
+        "unit": "\\si{\\newton}",
+        "value": "\\si{\\kilo\\gram\\metre\\per\\square\\second}"
     },
     "F_{A}": {
         "Description": "Auftriebskraft",
         "Display": 1,
-        "einheit": "\\si{\\kilo\\gram\\metre\\per\\squar\\second}",
-        "si": "\\si{\\newton}"
+        "unit": "\\si{\\newton}",
+        "value": "\\si{\\kilo\\gram\\metre\\per\\square\\second}"
     },
     "F_{G}": {
         "Description": "Gewichtskraft",
         "Display": 1,
-        "einheit": "\\si{\\kilo\\gram\\metre\\per\\squar\\second}",
-        "si": "\\si{\\newton}"
+        "unit": "\\si{\\newton}",
+        "value": "\\si{\\kilo\\gram\\metre\\per\\square\\second}"
     },
     "F_{H}": {
         "Description": "Hangabtriebskraft",
         "Display": 1,
-        "einheit": "\\si{\\kilo\\gram\\metre\\per\\squar\\second}",
-        "si": "\\si{\\newton}"
+        "unit": "\\si{\\newton}",
+        "value": "\\si{\\kilo\\gram\\metre\\per\\square\\second}"
     },
     "F_{N}": {
         "Description": "Normalkraft",
         "Display": 1,
-        "einheit": "\\si{\\kilo\\gram\\metre\\per\\squar\\second}",
-        "si": "\\si{\\newton}"
+        "unit": "\\si{\\newton}",
+        "value": "\\si{\\kilo\\gram\\metre\\per\\square\\second}"
     },
     "F_{R}": {
-        "Description": "",
+        "Description": "Reibungskraft",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "\\si{\\newton}",
+        "value": "\\si{\\kilo\\gram\\metre\\per\\square\\second}"
     },
     "F_{z}": {
         "Description": "",
         "Display": 1,
-        "einheit": "\\si{\\kilo\\gram\\metre\\per\\squar\\second}",
-        "si": "\\si{\\newton}"
+        "unit": "\\si{\\newton}",
+        "value": "\\si{\\kilo\\gram\\metre\\per\\square\\second}"
     },
     "G": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "H": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "H_{u}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "I": {
-        "Description": "",
+        "Description": "Stromst\u00e4rke",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "\\si{\\ampere}",
+        "value": ""
     },
     "I_{eff}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "Interaktiv": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "L": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "L_{1}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "L_{2}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "L_{g}": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "M": {
         "Description": "Drehmoment",
         "Display": 1,
-        "einheit": "\\si{\\kilo\\gram\\squar\\metre\\per\\squar\\second}",
-        "si": "\\si{\\newton\\metre}"
+        "unit": "\\si{\\newton\\metre}",
+        "value": "\\si{\\kilo\\gram\\square\\metre\\per\\square\\second}"
     },
     "N": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "N^{2}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "P": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "P_{1}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "P_{2}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "Q": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "Q_{1}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "Q_{2}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "R": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "R_{1}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "R_{2}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "R_{g}": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "R_{m}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "T": {
-        "Description": "",
+        "Description": "absolute Temperatur",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "\\si{\\kelvin}",
+        "value": "273,15 \\si{\\kelvin} = 0 \\si{\\degree}"
     },
     "T_{1}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "T_{2}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "U": {
         "Description": "Innere Energie",
         "Display": 1,
-        "einheit": "",
-        "si": "$\\si{\\kilo\\gram}$"
+        "unit": "\\si{\\kilo\\gram}",
+        "value": ""
     },
     "U^{2}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "U_{1}": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "U_{eff}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "U_{g}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "U_{max}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "U_{t}": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "V": {
         "Description": "Volumen",
         "Display": 1,
-        "einheit": "",
-        "si": "$\\si{\\cubic\\meter}$"
+        "unit": "\\si{\\cubic\\meter}",
+        "value": ""
+    },
+    "V_1": {
+        "Description": "",
+        "Display": 1,
+        "unit": "",
+        "value": ""
+    },
+    "V_2": {
+        "Description": "",
+        "Display": 1,
+        "unit": "",
+        "value": ""
     },
     "V_{0}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "V_{1}": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "V_{2}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "W": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "X_{C}": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "X_{L}": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "\\Delta A": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "\\Delta Q": {
-        "Description": "",
+        "Description": "Ladungs\u00e4nderung",
         "Display": 1,
-        "si": ""
+        "unit": "C",
+        "value": "\\si{\\ampere\\second}"
     },
     "\\Delta R": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "\\Delta T": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "\\Delta V": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "\\Delta l": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "\\Delta t": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "\\Phi": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "\\alpha": {
-        "Description": "",
+        "Description": "Winkel",
         "Display": 1,
-        "einheit": "",
-        "si": ""
-    },
-    "\\alpha)": {
-        "Description": "",
-        "Display": 1,
-        "si": ""
+        "unit": "\\si{\\deg}",
+        "value": ""
     },
     "\\alpha_{1}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "\\alpha_{2}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "\\eta": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "\\gamma": {
-        "Description": "Fallbeschleunigung",
-        "Display": 1,
-        "einheit": "9,81 \\si{\\metre\\per\\squar\\second}",
-        "si": "\\si{\\metre\\per\\squar\\second}"
-    },
-    "\\kaka": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "\\kappa": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
-    "\\mu": {
+    "\\ln{\\cfrac{V_2": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
+    },
+    "\\mu": {
+        "Description": "Reibungszahl",
+        "Display": 1,
+        "unit": "",
+        "value": ""
     },
     "\\mu_{0}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "\\mu_{r}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "\\nu": {
-        "Description": "",
+        "Description": "Perioden-Umdrehungen",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "\\omega": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "\\omega^{2}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "\\phi_{0}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "\\phi_{0})": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "\\pi": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "\\rho": {
         "Description": "Dichte",
         "Display": 1,
-        "einheit": "",
-        "si": "\\si{\\kilo\\gram\\per\\cubic\\metre}"
+        "unit": "\\si{\\kilo\\gram\\per\\cubic\\metre}",
+        "value": ""
     },
     "\\tau": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "a": {
-        "Description": "",
+        "Description": "Beschleunigung",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "\\si{\\metre\\per\\square\\second}",
+        "value": ""
     },
     "a_{z}": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "b": {
         "Description": "Breite",
         "Display": 1,
-        "einheit": "",
-        "si": "\\si{\\metre}"
+        "unit": "\\si{\\metre}",
+        "value": ""
     },
     "c": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "cos(\\delta)": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "cos(\\phi)": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "f": {
-        "Description": "",
+        "Description": "Frequenz",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "\\si{\\hertz}",
+        "value": "\\frac{1}{\\si{\\second}}"
     },
     "g": {
-        "Description": "",
+        "Description": "Fallbeschleunigung",
         "Display": 1,
-        "si": ""
+        "unit": "\\si{\\metre\\per\\square\\second}",
+        "value": "9,8126 \\si{\\metre\\per\\square\\second}"
     },
     "h": {
         "Description": "H\u00f6he",
         "Display": 1,
-        "einheit": "",
-        "si": "\\si{\\metre}"
+        "unit": "\\si{\\metre}",
+        "value": ""
     },
     "h_{0}": {
-        "Description": "",
+        "Description": "Abwurfh\u00f6he",
         "Display": 1,
-        "si": ""
+        "unit": "\\si{\\metre}",
+        "value": ""
     },
     "l": {
         "Description": "L\u00e4nge",
         "Display": 1,
-        "einheit": "",
-        "si": "\\si{\\metre}"
+        "unit": "\\si{\\metre}",
+        "value": ""
     },
     "lSP": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "l_{0}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "l_{1}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "l_{2}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "m": {
-        "Description": "",
+        "Description": "Masse",
         "Display": 1,
-        "si": ""
+        "unit": "\\si{\\kilo\\gram}",
+        "value": ""
     },
     "m_{1}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "m_{2}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "n": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "p": {
         "Description": "Druck",
         "Display": 1,
-        "einheit": "\\si{\\newton\\per\\squar\\metre}",
-        "si": "\\si{\\pascal}"
+        "unit": "\\si{\\pascal}",
+        "value": "\\si{\\newton\\per\\square\\metre}"
     },
     "p_{1}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "p_{}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "q_{s}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "q_{v}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "r": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "s": {
-        "Description": "",
+        "Description": "Weg,Auslenkung",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "\\si{\\metre}",
+        "value": ""
     },
     "sin(2": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "sin(\\omega": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "sin\\alpha": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "sin\\alpha_{1}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "sin\\alpha_{2": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "sin\\alpha_{2}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "t": {
-        "Description": "",
+        "Description": "Zeit",
         "Display": 1,
-        "si": ""
+        "unit": "\\si{\\second}",
+        "value": ""
     },
     "t_{1}": {
-        "Description": "",
+        "Description": "aufeinanderfolgende Zeitpunkte",
         "Display": 1,
-        "si": ""
+        "unit": "\\si{\\second}",
+        "value": ""
     },
     "t_{2}": {
-        "Description": "",
+        "Description": "aufeinanderfolgende Zeitpunkte",
         "Display": 1,
-        "si": ""
+        "unit": "\\si{\\second}",
+        "value": ""
     },
     "v": {
         "Description": "Geschwindigkeit",
         "Display": 1,
-        "einheit": "",
-        "si": "\\si{\\metre\\per\\second}"
+        "unit": "\\si{\\metre\\per\\second}",
+        "value": ""
     },
     "v_{0}": {
         "Description": "Anfangsgeschwindigkeit",
         "Display": 1,
-        "si": ""
+        "unit": "\\si{\\metre\\per\\second}",
+        "value": ""
     },
     "v_{1}": {
-        "Description": "",
+        "Description": "Geschwindigkeit",
         "Display": 1,
-        "si": ""
+        "unit": "\\si{\\metre\\per\\second}",
+        "value": ""
     },
     "v_{2}": {
-        "Description": "",
+        "Description": "Geschwindigkeit",
         "Display": 1,
-        "si": ""
+        "unit": "\\si{\\metre\\per\\second}",
+        "value": ""
     },
     "x_{1}": {
-        "Description": "",
+        "Description": "zur\u00fcckgelegter Weg",
         "Display": 1,
-        "si": ""
+        "unit": "\\si{\\metre}",
+        "value": ""
     },
     "x_{2}": {
-        "Description": "",
+        "Description": "zur\u00fcckgelegter Weg",
         "Display": 1,
-        "si": ""
+        "unit": "\\si{\\metre}",
+        "value": ""
     },
     "x_{w}": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "y": {
         "Description": "",
         "Display": 1,
-        "einheit": "",
-        "si": ""
+        "unit": "",
+        "value": ""
     },
     "y_{s}": {
         "Description": "",
         "Display": 1,
-        "si": ""
+        "unit": "",
+        "value": ""
     }
 }

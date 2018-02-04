@@ -24,10 +24,10 @@ def niceParam(param):
     if param == "}": param = ""
     if param == "{": param = ""
     # Remove close } if no open { before
-    if param.count("{") < param.count("}"):
+    while param.count("{") < param.count("}"):
         if param[-1] == "}":
             param = param[:-1]
-    if param.count("(") < param.count(")"):
+    while param.count("(") < param.count(")"):
         if param[-1] == ")":
             param = param[:-1]
     # Remove potence
@@ -47,6 +47,8 @@ def stripOperator(formel):
     formel = formel.replace("\\cdot"," ")
     formel = formel.replace("\\sqrt{", " ")
     formel = formel.replace("\\frac{", " ")
+    formel = formel.replace("\\cfrac{", " ")
+    formel = formel.replace("\\ln{", " ")
     formel = formel.replace("}{", " ")
     formel = formel.replace("+", " ")
     formel = formel.replace("-", " ")
@@ -66,31 +68,32 @@ def extractParam(formel):
         if parametre == "":
             continue
 
-        param.add(parametre)
+        param.append(parametre)
 
     return param;
 
 def createLegend(formel):
     for param in extractParam(formel):
         if param not in legend:
-            legend[param] = {'Display': 1, 'Description': "", 'si': "", 'einheit': ""};
+            legend[param] = {'Display': 1, 'Description': "", 'unit': "", 'value': ""};
 
 def getLegend(formel):
-    legend = ""
+    output = ""
     for param in extractParam(formel):
-        if param not in legend: return None
-        if not legend[param]["display"]: return None
+        print(param + ": " + str(legend[param]["Display"]))
+        if param not in legend: continue
+        if not legend[param]["Display"]: continue
 
-        legend += "$" + param + "$ & " + legend[param]["Description"] + " & $" + legend[param]['si'] + "$ & $" + legend[param]['einheit'] + "$ \\\\ \n";
+        output += "$" + param + " $ & " + legend[param]["Description"] + " & $" + legend[param]['unit'] + " $ & $ " + legend[param]['value'] + "$ \\\\ \n";
 
-    return legend;
+    return output;
 
 for formel in formeln:
     title = formel["title"]
     subtitle = formel["subtitle"]
     subsubtitle = formel["subsubtitle"]
-    main_formular = formel["formel"][0]
-    formular = formel["formel"]
+    main_formular = formel["formeln"][0]
+    formular = formel["formeln"]
 
     createLegend(main_formular)
 
@@ -101,7 +104,7 @@ for formel in formeln:
         os.makedirs(directory)
 
     if 'Aufgabe:' in subsubtitle:
-        return
+        continue
 
     with open(file_path, 'a') as f:
         f.write("\\subsubsection{" + subsubtitle + "} \n")
@@ -109,12 +112,13 @@ for formel in formeln:
         f.write("\\mainformular{" + main_formular + "} \n")
         f.write('\\end{minipage} \n')
         f.write('\\begin{minipage}{0.45\\textwidth} \n \n')
-        f.write('\\legende{'+ getLegend(main_formular) + '}')
-        f.write('\\end{minipage} \n \n')
+        f.write('\\legende{ \n'+ str(getLegend(main_formular)) + '} \n')
+        f.write('\\end{minipage} \n')
         for formel in formular:
-            f.write(formel.strip() + ' || ')
-            f.write('\\\\ \n \n')
-            f.close()
+            f.write(formel.strip() + ' \\textcolor{lightgray}{\\textbf{---}} ')
+            f.write('\n')
+        f.write('\n')
+        f.close()
 
 jsonarray = json.dumps(legend, indent=4, sort_keys=True)
 
